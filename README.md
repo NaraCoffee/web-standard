@@ -1,1 +1,1 @@
-# web-standard
+# JavaScript-basic-testing
