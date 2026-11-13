@@ -1,0 +1,432 @@
+
+
+@media screen and (max-width: 1199px) {
+
+    .top-bar,
+    .hero-text {
+        width: 90%;
+    }
+    .logo {
+
+        gap: 10px;
+    }
+    .logo img {
+        width: 72px;
+    }
+    .menu {
+        gap: 28px;
+
+    }
+
+    .notice {
+        gap: 16px;
+        padding: 28px 32px;
+        border-radius: 40px;
+    }
+
+    .avatar {
+        flex: 0 0 72px;
+        width: 72px;
+        height: 72px;
+
+    }
+    .tags {
+        gap: 8px;
+    }
+    .tags li {
+        padding: 6px 12px;
+
+    }
+
+    .leader {
+        gap: 24px;
+        padding: 24px;
+    }
+
+    .leader-photo {
+        flex: 0 0 160px;
+        width: 160px;
+        height: 216px;
+    }
+
+    .leader-info {
+        margin-left: 4vw;
+    }
+
+    .driver {
+        gap: 28px;
+        padding: 24px;
+    }
+
+    .driver-photo {
+        flex: 0 0 320px;
+        width: 320px;
+    }
+
+}
+
+@media screen and (max-width: 899px) {
+
+    header.top {
+        height: 400px;
+    }
+
+    main {
+        padding-bottom: 80px;
+    }
+
+    .notice {
+        flex-wrap: wrap;
+        top: -60px;
+        padding: 24px;
+    }
+
+    .notice-text {
+        min-width: 0;
+    }
+
+    .tags {
+        width: 100%;
+        padding-left: 88px;
+        flex-wrap: wrap;
+    }
+    .leader {
+        gap: 20px;
+        padding: 20px;
+    }
+    .leader-photo {
+        flex: 0 0 140px;
+        width: 140px;
+        height: 188px;
+    }
+
+    .leader-info {
+        margin-left: 0;
+        min-width: 0;
+    }
+
+    .driver {
+        gap: 24px;
+        padding: 20px;
+    }
+
+    .driver-photo {
+        flex: 0 0 240px;
+        width: 240px;
+    }
+
+    .info-grid {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-areas:
+            "home point"
+            "video news"
+            "racer racer";
+        gap: 12px;
+    }
+    .info-grid li {
+        min-height: 120px;
+    }
+
+}
+
+@media screen and (max-width: 599px) {
+
+    header.top {
+        height: 300px;
+    }
+
+    .top-bar,
+    .hero-text {
+        width: calc(100% - 40px);
+    }
+    .top-bar {
+        padding: 20px 0;
+    }
+
+    .logo {
+        gap: 6px;
+
+    }
+    .logo img {
+        width: 52px;
+    }
+
+    .menu {
+        gap: 18px;
+
+    }
+    .hero-text .sub,
+    .hero-text h1,
+    .hero-text .desc {
+        margin-bottom: 8px;
+    }
+
+    .btn {
+        margin-top: 4px;
+        padding: 8px 16px;
+
+    }
+
+    main {
+        padding: 0 16px 32px;
+    }
+    .title {
+        margin: 40px 0 16px;
+
+    }
+
+    .notice {
+        gap: 12px;
+        padding: 16px;
+        border-radius: 20px;
+    }
+    .avatar {
+        flex: 0 0 48px;
+        width: 48px;
+        height: 48px;
+
+    }
+
+    .tags {
+        display: flex;
+        padding-left: 0;
+        justify-content: center;
+    }
+
+    #champion .title {
+        margin-top: 0;
+    }
+
+    .leader {
+        position: relative;
+        gap: 14px;
+        padding: 12px;
+        border-radius: 20px;
+    }
+
+    .leader-photo {
+        flex: 0 0 110px;
+        width: 110px;
+        height: 144px;
+        border-radius: 12px;
+    }
+
+    .leader-photo img {
+        width: 100%;
+        height: auto;
+    }
+
+    .leader-info {
+        padding-bottom: 0;
+    }
+
+    .leader-info p {
+        margin-top: 6px;
+
+    }
+
+    .points {
+        position: static;
+        width: 100%;
+        text-align: right;
+    }
+
+    .driver {
+        display: block;
+        margin-bottom: 16px;
+        padding: 16px;
+        border-radius: 16px;
+    }
+
+    .driver-photo {
+        width: 100%;
+        border-radius: 12px;
+    }
+
+    .driver-photo::before {
+        padding-top: 56.3%;
+    }
+
+    .driver-photo img {
+        width: 100%;
+        height: auto;
+    }
+
+    .driver-info {
+        display: block;
+        margin-top: 12px;
+    }
+
+    .team {
+        margin-bottom: 4px;
+        padding-left: 8px;
+
+    }
+    .team::before {
+        width: 2px;
+    }
+    .driver-info h3 {
+        margin-bottom: 8px;
+
+    }
+
+    .more {
+        display: inline-block;
+        margin-top: 16px;
+
+    }
+
+    .info-grid {
+        gap: 8px;
+    }
+
+    .info-grid li {
+        min-height: 72px;
+    }
+    .info-grid a {
+        gap: 6px;
+        border-radius: 8px;
+
+    }
+    .icon {
+        width: 28px;
+        height: 28px;
+
+    }
+    footer {
+        padding: 20px;
+
+    }
+
+    footer .top {
+        right: 16px;
+        bottom: 16px;
+        width: 44px;
+        height: 44px;
+
+    }
+}
+
+@media (max-width: 899px) {
+    .guide-tabs button { padding: 10px 0; }
+
+    .guide-content {
+        flex-wrap: wrap;
+        height: auto;
+        gap: 16px;
+        padding: 16px;
+    }
+
+    .guide-content li {
+        flex: 1 1 auto;
+        width: calc(50% - 16px);
+        min-height: 180px;
+        padding: 24px 20px;
+    }
+
+    .guide-content li.on {
+        flex: 1 1 auto;
+        width: calc(50% - 16px);
+        padding-top: 72px;
+    }
+
+}
+
+@media (max-width: 599px) {
+    #guide { margin-bottom: 40px; }
+    .guide-tabs { flex-wrap: wrap; }
+    .guide-tabs li { width: 50%; }
+    .guide-tabs button { width: 100%; }
+    .guide-content { height: auto; flex-direction: column; box-shadow: none; padding: 12px; gap: 16px; }
+    .guide-content li { flex: auto; width: auto; padding: 24px 16px 16px; min-height: 104px; }
+    .guide-content li.on { flex: auto; width: auto; min-height: 252px; padding-top: 72px; }
+    .guide-content .thumb { display: none; }
+    .guide-content p { display: none; }
+    .guide-content li.on .thumb { display: flex; }
+    .guide-content li.on p { display: block; }
+    .guide-content .badge { top: 16px; left: 16px; }
+    .guide-content .num { top: 16px; right: 16px; }
+
+}
+
+@media (max-width: 599px) {
+    .top-bar { flex-wrap: wrap; gap: 10px; }
+    .menu { flex-wrap: wrap; }
+    .leader { flex-wrap: wrap; }
+    .leader-info { flex: 1 1 100%; width: 100%; }
+    .avatar { width: 72px; height: 72px; }
+}
+
+@media (max-width: 599px) {
+    header.top { height: 520px; }
+    .hero-text { top: 52%; }
+    .avatar {
+        flex: 0 0 72px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 599px) {
+    .icon {
+        width: 46px;
+        height: 46px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .info-grid a { padding: 12px 8px; }
+}
+
+@media (max-width: 599px) {
+    .top-bar { flex-wrap: nowrap; }
+    .menu-toggle {
+        display: block;
+        position: relative;
+        width: 30px;
+        height: 24px;
+        padding: 0;
+        border: 0;
+        background-color: transparent;
+        cursor: pointer;
+    }
+    .menu-toggle span {
+        position: absolute;
+        left: 0;
+        width: 100%;
+        height: 2px;
+        background-color: white;
+        transition: all 0.3s;
+    }
+    .menu-toggle span:nth-child(1) { top: 0; }
+    .menu-toggle span:nth-child(2) { top: 50%; }
+    .menu-toggle span:nth-child(3) { top: 100%; }
+    .top-bar.open .menu-toggle span:nth-child(1) { top: 50%; transform: rotate(-45deg); }
+    .top-bar.open .menu-toggle span:nth-child(2) { opacity: 0; }
+    .top-bar.open .menu-toggle span:nth-child(3) { top: 50%; transform: rotate(45deg); }
+    .top-bar nav {
+        position: absolute;
+        top: 100%;
+        right: 0;
+        padding: 20px 28px;
+        border-radius: 12px;
+        background-color: #1f1f3a;
+        visibility: hidden;
+        opacity: 0;
+        transform: translateY(-10px);
+        transition: all 0.3s;
+    }
+    .top-bar.open nav {
+        visibility: visible;
+        opacity: 1;
+        transform: translateY(0);
+    }
+    .menu { flex-direction: column; gap: 20px; }
+
+    #champion,
+    #drivers,
+    #more {
+        scroll-margin-top: 80px;
+    }
+}
