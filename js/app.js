@@ -1,4 +1,3 @@
-
 const page = document.querySelector('body');
 const topButton = document.querySelector('footer .top');
 
@@ -6,11 +5,11 @@ const menuToggle = document.querySelector('.menu-toggle');
 const topBar = document.querySelector('.top-bar');
 const menuLinks = document.querySelectorAll('.menu a');
 menuToggle.addEventListener('click', function () {
-    topBar.classList.toggle('open');
+    page.classList.toggle('m-nav-open');
 });
 menuLinks.forEach(function (link) {
     link.addEventListener('click', function () {
-        topBar.classList.remove('open');
+        page.classList.remove('m-nav-open');
     });
 });
 
