@@ -1,7 +1,8 @@
+
 const page = document.querySelector('body');
 const topButton = document.querySelector('footer .top');
 
-const menuToggle = document.querySelector('.menu-toggle');
+const menuToggle = document.querySelector('.mob-nav-btn');
 const topBar = document.querySelector('.top-bar');
 const menuLinks = document.querySelectorAll('.menu a');
 menuToggle.addEventListener('click', function () {
