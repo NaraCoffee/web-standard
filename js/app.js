@@ -58,3 +58,14 @@ contents.forEach(function (content, i) {
         init(i);
     });
 });
+
+const heroSwiper = new Swiper('.hero-swiper', {
+    navigation: {
+        nextEl: '.hero-swiper .swiper-button-next',
+        prevEl: '.hero-swiper .swiper-button-prev',
+    },
+    pagination: {
+        el: '.hero-swiper .swiper-pagination',
+    },
+    loop: true
+});
