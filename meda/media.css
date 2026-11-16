@@ -1,6 +1,7 @@
 
 @media (max-width: 1024px) {
-    header.top { height: 480px; }
+    header.top { height: 420px; }
+    .hero-swiper .swiper-slide { background-position: 60% center; }
     .top-bar, .hero-text { width: 90%; }
     .top-bar { padding: 24px 0; }
     .logo { gap: 10px; font-size: 22px; }
@@ -69,7 +70,8 @@
 }
 
 @media (max-width: 768px) {
-    header.top { height: 460px; }
+    header.top { height: 340px; }
+    .hero-swiper .swiper-slide { background-position: 65% center; }
     .top-bar, .hero-text { width: calc(100% - 40px); }
     .top-bar { padding: 20px 0; }
     .logo img { width: 60px; }
